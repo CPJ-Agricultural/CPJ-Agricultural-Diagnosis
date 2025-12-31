@@ -484,19 +484,6 @@ This repository provides complete transparency for reproduction:
 
 ---
 
-## 👥 Contributors & Contact
-
-<table align="center">
-<tr>
-<td align="center">
-<b>Wentao Zhang</b><br/>
-📧 <a href="mailto:1557085480@qq.com">1557085480@qq.com</a>
-</td>
-</tr>
-</table>
-
----
-
 ## 📜 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
