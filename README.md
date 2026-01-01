@@ -182,7 +182,7 @@ This work uses the **CDDMBench** (Crop Disease Diagnosis Multimodal Benchmark):
 
 ```bash
 # Clone the repository
-git clone https://github.com/zhangwentao159357/CPJ-Agricultural-Diagnosis.git
+git clone https://github.com/CPJ-Agricultural/CPJ-Agricultural-Diagnosis.git
 cd CPJ-Agricultural-Diagnosis
 
 # Install dependencies
