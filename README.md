@@ -48,6 +48,12 @@ CPJ addresses these issues through a training-free approach that generates inter
 
 Selected answers scored 4.9/5.0 on average, while unselected answers scored 3.6/5.0.
 
+### Ablation Study
+
+<div align="center">
+  <img src="docs/ablation_study.png" alt="Ablation Study Results" width="90%"/>
+</div>
+
 ---
 
 ## Installation
@@ -210,6 +216,7 @@ CPJ-Agricultural-Diagnosis/
 │
 ├── docs/
 │   ├── framework.png
+│   ├── ablation_study.png
 │   └── 1902.pdf
 │
 ├── PROMPTS_AND_EVALUATION.md
