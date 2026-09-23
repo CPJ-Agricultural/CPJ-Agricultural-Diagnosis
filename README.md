@@ -40,9 +40,10 @@ CPJ addresses these issues through a training-free approach that generates inter
 - Disease Classification: 33.70% (+22.7 pp)
 - Knowledge QA Score: 84.5/100 (+19.5 points)
 
-**Human Validation** (N=396 samples):
-- Agreement Rate: 94.2%
-- Cohen's Kappa: 0.88 (strong agreement)
+**Human Validation** (N=396 samples, 5 PhD plant pathologists, 3 institutions):
+- Agreement Rate: 96.0%
+- Fleiss' Kappa: 0.84 [95% CI: 0.79, 0.89] (inter-rater reliability)
+- Cohen's Kappa: 0.90 [95% CI: 0.86, 0.94] (majority consensus vs LLM judge)
 - Score Correlation: r = 0.91
 
 Selected answers scored 4.9/5.0 on average, while unselected answers scored 3.6/5.0.
@@ -249,11 +250,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Citation
 
+If you use this framework in your research, please cite:
+
 ```bibtex
-@article{cpj2025,
-  title={CPJ: Caption-Prompt-Judge for Explainable Agricultural Disease Diagnosis},
-  author={[Authors]},
-  journal={[Venue]},
-  year={2025}
+@inproceedings{zhang2026cpj,
+  author={Zhang, Wentao and Fang, Tao and Lu, Lina and Wang, Lifei and Zhong, Weihe},
+  booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  title={{CPJ}: Explainable Agricultural Pest Diagnosis Via Caption--Prompt--Judge with {LLM}-Judged Refinement},
+  year={2026},
+  pages={5156--5160},
+  doi={10.1109/ICASSP55912.2026.11464859},
+}
+
+@article{zhang2026agricpj,
+  title={Agri-CPJ: A training-free explainable framework for agricultural pest diagnosis using Caption-Prompt-Judge and LLM-as-a-Judge},
+  author={Zhang, Wentao and Zhang, Qi and Xu, Mingkun and You, Mu and Shen, Henghua and He, Zhongzhi and Jin, Keyan and Wong, Derek F. and Fang, Tao},
+  journal={Computers and Electronics in Agriculture},
+  year={2026},
+  doi={10.1016/j.compag.2026.112404}
 }
 ```
